@@ -1,15 +1,22 @@
-//TIP コードを<b>実行</b>するには、<shortcut actionId="Run"/> を押すか
-// ガターの <icon src="AllIcons.Actions.Execute"/> アイコンをクリックします。
+
 public class Main {
     public static void main(String[] args) {
-        //TIP ハイライトされたテキストにキャレットがある状態で <shortcut actionId="ShowIntentionActions"/> を押すと
-        // IntelliJ IDEA によるその修正案を確認できます。
-        System.out.printf("Hello and welcome!");
+        // 引数なし
+       /* Hero h = new Hero();//同じ名前
+        System.out.println(h.name + "のHPは" + h.hp + "です");
+        // 引数あり String
+        Hero h1 = new Hero("ミナト");//同じ名前
+        System.out.println(h1.name + "のHPは" + h1.hp + "です");
+        // 引数あり int
+        Hero h2 = new Hero(999);//同じ名前
+        System.out.println(h2.name + "のHPは" + h2.hp + "です");
+        // 引数2つ
+        Hero h3 = new Hero(999, "ミナト");//同じ名前
+        System.out.println(h3.name + "のHPは" + h3.hp + "です");*/
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP <shortcut actionId="Debug"/> を押してコードのデバッグを開始します。<icon src="AllIcons.Debugger.Db_set_breakpoint"/> ブレークポイントを 1 つ設定しましたが、
-            // <shortcut actionId="ToggleLineBreakpoint"/> を押すといつでも他のブレークポイントを追加できます。
-            System.out.println("i = " + i);
-        }
+        SuperHero sh = new SuperHero();
+        sh.fly();
+        sh.run();
+
     }
 }
