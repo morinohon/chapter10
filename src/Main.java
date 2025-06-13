@@ -18,5 +18,6 @@ public class Main {
         sh.fly();
         sh.run();
 
+        Weapon w = new Weapon();
     }
 }
